@@ -1,0 +1,78 @@
+html {
+    font-family: Reddit Mono;
+}
+
+body {
+    background-image: linear-gradient(180deg, #a07ceb 0, #7563c0 50%, #4e4a96 100%);
+    margin: 0;
+}
+
+main {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    margin: 0 0 1rem 0;
+    text-shadow: 4px 3px 6px rgba(0,0,0,0.6);
+}
+
+.mid {
+
+    text-align: center;
+}
+
+.mid a {
+    margin-top: 1rem;
+    padding: .5rem;
+    border-radius: .9rem;
+    background-color: rgb(22, 100, 19);
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #eba0d7;
+    font-weight: bold;
+}
+
+span {
+    color: rgb(75, 18, 18);
+}
+
+.boton:hover {
+    transition: .3s;
+    color: rgb(22, 100, 19);
+    background-color: #eba0d7;
+}
+
+.gifs {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: .5rem;
+}
+
+.flor {
+    margin-top: .5rem;
+    width: 100vw;
+    text-align: center;
+}
+
+.boton1 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: 100px;
+    margin-top: 1rem;
+    padding: .5rem;
+    border-radius: .9rem;
+    background-color: rgb(22, 100, 19);
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #eba0d7;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
